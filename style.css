@@ -1,0 +1,24 @@
+*{
+    margin:0%;
+    padding: 0%;
+    background-image: repeating-linear-gradient(
+        45deg,palegreen,rgb(184, 247, 247)
+    );
+    height: 2000px;
+}
+
+body{
+    margin: auto;
+    padding: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    text-align: center;
+}
+
+.container .heading{
+    color: steelblue;
+    font-weight: 500;
+    font-size: 48px;
+}
