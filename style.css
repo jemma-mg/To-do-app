@@ -14,7 +14,7 @@ body{
 }
 
 .container{
-    text-align: center;
+    align-items: center;
 }
 
 .container .heading{
