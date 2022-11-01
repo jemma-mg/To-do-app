@@ -1,16 +1,20 @@
 *{
     margin:0%;
     padding: 0%;
-    background-image: repeating-linear-gradient(
-        45deg,palegreen,rgb(184, 247, 247)
-    );
-    height: 2000px;
+}
+
+main{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 body{
     margin: auto;
     padding: 8px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100vh;
 }
 
 .container{
@@ -21,4 +25,26 @@ body{
     color: steelblue;
     font-weight: 500;
     font-size: 48px;
+}
+
+.box{
+    margin: 15px;
+    width: 1000px;
+    min-height: 500px;
+    background-image: repeating-linear-gradient(
+        10deg,rgb(6, 66, 6),rgb(2, 72, 72)
+    );
+    border-radius: 5px;
+    padding: 50px;
+}
+
+#item{
+    width: 100%;
+    font-size: 20px;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 0px 2px grey;
+    font-weight: bold;
+    display: block;
 }
