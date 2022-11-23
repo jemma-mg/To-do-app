@@ -1,4 +1,5 @@
 const addButton = document.getElementById("add");
+const submitButton = document.getElementById("submit");
 const task_list = document.getElementById("task-list")
 let tasks = [];
 
